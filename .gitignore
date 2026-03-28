@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Trained model (large binary, regenerated on first run)
+data/face_model.yml
+
+# Saved login credentials (sensitive)
+data/remembered_login.dat
+
+# Selfies captured during recognition
+data/selfies/
+
+# Face training images (large, user-specific)
+face_data/
+
+# OS files
+.DS_Store
+Thumbs.db
